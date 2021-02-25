@@ -21,3 +21,7 @@ SkyWalking already support.
   - [Query in OAP](../protocols/README.md#query-protocol). A set of query protocol provided, based on the Observability Analysis Language metrics definition. 
 - UI
   - [Overview](ui-overview.md). A simple brief about SkyWalking UI.
+- CLI
+  - [SkyWalking CLI](https://github.com/apache/skywalking-cli). A command line interface for SkyWalking.
+- Events
+  - [Events](event.md). Introduce the concept of "Event" in SkyWalking.

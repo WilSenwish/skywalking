@@ -1,34 +1,32 @@
 # Welcome
-**Here are SkyWalking 6 official documents. Welcome to join us**
+**Here are SkyWalking 8 official documentation. You're welcome to join us.**
 
-From here you can learn all about **SkyWalking**’s architecture, how to deploy and use SkyWalking, also develop based on SkyWalking.
+From here you can learn all about **SkyWalking**’s architecture, how to deploy and use SkyWalking, and develop based on SkyWalking contributions guidelines.
 
-- [Concepts and Designs](en/concepts-and-designs/README.md). Concepts and designs explain the most important core ideas about
-SkyWalking. You can learn from here if you want to understand what is going on under our cool features and visualization.
-- [Setup](en/setup/README.md). Setup contains guides for installing SkyWalking in different scenarios. As a platform, it provides
-several ways to provide observability, including monitoring and alarm of course. 
-- [Contributing Guides](en/guides/README.md). Guides are for PMC member, committer or new contributor. At here, you can know how to contribute from beginning.
-- [Protocols](en/protocols/README.md). Protocols show the communication ways between agents/probes and backend. Anyone, interested
-in uplink telemetry data, definitely should read this.
-- [FAQs](en/FAQ/README.md). Include a manifest, including already known setup problems, secondary developments experiments. When 
-you are facing a problem, check here first.
+**NOTICE, SkyWalking 8 uses brand new tracing APIs, it is incompatible with all previous releases.**
+
+- [Concepts and Designs](en/concepts-and-designs/README.md). You'll find the the most important core ideas about SkyWalking. You can learn from here if you want to understand what is going on under our cool features and visualization.
+
+- [Setup](en/setup/README.md). Guides for installing SkyWalking in different scenarios. As a platform, it provides several ways of the observability.
+
+- [UI Introduction](en/ui/README.md). Introduce the UI usage and features. 
+
+- [Contributing Guides](en/guides/README.md). Guides are for PMC member, committer or new contributor. Here, you can find how to start contributing.
+
+- [Protocols](en/protocols/README.md). Protocols show the communication ways between agents/probes and backend. Anyone interested in uplink telemetry data should definitely read this.
+
+- [FAQs](en/FAQ/README.md). A manifest of already known setup problems, secondary developments experiments. When you are facing a problem, check here first.
 
 
 In addition, you might find these links interesting:
 
 - The latest and old releases are all available at [Apache SkyWalking release page](http://skywalking.apache.org/downloads/). The change logs are [here](../CHANGES.md).
+
+- [SkyWalking WIKI](https://cwiki.apache.org/confluence/display/SKYWALKING/Home) hosts the context of some changes and events.
+
 - You can find the speaking schedules at Conf, online videos and articles about SkyWalking in [Community resource catalog](https://github.com/OpenSkywalking/Community).
-Also, if you have some related to us, welcome to submit a pull request to add.
-- We’re always looking for help improving our documentation and codes, so please don’t hesitate to [file an issue](https://github.com/apache/skywalking/issues/new) 
-if you see some problem. 
+
+We're always looking for help improving our documentation and codes, so please don’t hesitate to [file an issue](https://github.com/apache/skywalking/issues/new) 
+if you see any problem. 
 Or better yet, submit your own contributions through pull request to help make them better.
-
-___
-### Users from 5.x
-SkyWalking 5.x is still supported by the community. For the user plans to upgrade from 5.x to 6.x, you should know there are some definitions of concepts changed.
-
-The most important two changed concepts are
-1. Application(in 5.x) is changed to **Service**(in 6.x), also Application Instance is changed to **Service Instance**.
-1. Service(in 5.x) is changed to **Endpoint**(in 6.x).
-
 
